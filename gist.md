@@ -52,6 +52,8 @@ The OR Operator can be identified with a "|" symbol. The purpose of this is to t
 
 ### Flags
 
+Throughout this tutorial, you will have noticed a trend. A regex must be wrapped in slash characters. The reason flags are at the end of this tutorial, is becasue they are the one exception to this rule. Flags are inputed at the end of a regex, after the second slash. They define additional functionality or can limit the regex itself. For our case here, we have no flags. But as some examples, a flag can: search globally for for all possible matches, can ignore case sensativity, or search multiple lines of input string. 
+
 ### Character Escapes
 
 A Character Escape is repersented by a "\". It escapes a character that would otherwise be interperated literally. For example, the open curly bracket ({) is used to begin a quanitifier, but by adding a backslash before the bracket (\{), it means that the regex should look for the open curly bracket charcater instead of the beginning to define a quantifier. For our code, there is no escape that would jusitfy the use for one. 
