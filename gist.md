@@ -34,6 +34,9 @@ Quantifiers set a limit for the string to search through. For the code above, ou
 
 ### Grouping Constructs
 
+Grouping Constructs are identified with a "()". While this method has two main objectives (capturing and non-capturing), for the purpose of this tutorial, we will focus on the
+capturing aspect. When we look at the code: ([a-f0-9]{6}|[a-f0-9]{3}), we can tell it is capturing values to match for a specific sequence. If there was a "?:" somwhere in the middle of the code, we would identify it as a non-capturing grouping. 
+
 ### Bracket Expressions
 
 Bracket Expressions are identified by "[]". They contain a range of charcaters that need to be matched. For the example above, our expressions are: 
