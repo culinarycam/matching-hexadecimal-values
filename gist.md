@@ -46,6 +46,8 @@ Bracket Expressions are identified by "[]". They contain a range of charcaters t
 
 ### The OR Operator
 
+The OR Operator can be identified with a "|" symbol. The purpose of this is to tell the string if the first value is not a match, then search for the second value. For the code provided, we can see that [a-f0-9]{6} is looking for a letter value of anythinbg between a-f witha numerical value between of 0-9 for a total of 6 characters. If it cannot match a value with what is provided, then it will search for a value that matches [a-f0-9]{3}. 
+
 ### Flags
 
 ### Character Escapes
