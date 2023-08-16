@@ -52,6 +52,8 @@ The OR Operator can be identified with a "|" symbol. The purpose of this is to t
 
 ### Character Escapes
 
+A Character Escape is repersented by a "\". It escapes a character that would otherwise be interperated literally. For example, the open curly bracket ({) is used to begin a quanitifier, but by adding a backslash before the bracket (\{), it means that the regex should look for the open curly bracket charcater instead of the beginning to define a quantifier.
+
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
