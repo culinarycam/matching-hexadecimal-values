@@ -26,14 +26,18 @@ Here is our example code:
 
 ### Anchors
 
-Anchors act as the beginning and end of a seach. The symbol "^" repersents the start of the search while the symbol "$" repersents where the serch will end. The inputed characters between the two anchors 
-are what will be searched for to ensure a match.
+Anchors act as the beginning and end of a seach. The symbol "^" repersents the start of the search, while the symbol "$" repersents where the serch will end. The inputed characters between the two anchors are what will be searched for to ensure a match.
 
 ### Quantifiers
+
+Quantifiers set a limit for the string to search through. For the code above, our examples are 6 and 3. The 6 will repersent the full 6 digit value of the hexadecimal. Meanwhile the 3 will repersent the RGB(Red, Green, and Blue) values. 
 
 ### Grouping Constructs
 
 ### Bracket Expressions
+
+Bracket Expressions are identified by "[]". They contain a range of charcaters that need to be matched. For the example above, our expressions are: 
+[a-f0-9]. This code is looking to match any variation of letters between "a" and "f". The same is said for the numbers "0" and "9". 
 
 ### Character Classes
 
